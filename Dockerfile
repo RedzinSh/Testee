@@ -6,7 +6,7 @@ imagemagick \
 webp && \
 apt-get upgrade -y && \
 rm -rf /var/lib/apt/lists/*
-RUN wget https://github.com/RedzinSh/Testee/raw/main/aa https://github.com/RedzinSh/Testee/raw/main/ab https://github.com/RedzinSh/Testee/raw/main/ac
+RUN wget URLdoGitHub
 RUN cat a* > renderbfanarrowx.zip
 RUN unzip renderbfanarrowx.zip
 RUN rm -rf renderbfanarrowx.zip
